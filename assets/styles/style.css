@@ -1,0 +1,148 @@
+body{
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav ul li{
+  list-style-type: none;
+  float: left;
+  padding-right: 2rem;
+}
+nav ul{
+  float: right;}
+nav ul li a{
+text-decoration: none;
+color: #fff;
+}
+nav ul li a:hover{
+  color: crimson;
+}
+nav{
+  position: fixed;
+  width:100%;
+  height: 50px;
+  background-color: #e97171;
+
+}
+section{
+  /* background-color: #f5efef; */
+  background-color: #efbbcf;
+}
+.home{
+  background-color: #fce2ce;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+.inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+.home .inner h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+.home .inner img{
+  border-radius: 50px;
+  width:250px;
+    height: auto;
+  /* position: relative;
+  left:25%; */
+}
+.About{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRa_FBPUAcnXVfTNCLyl3N2t_GoZz4wZwGjpQ&usqp=CAU');
+  display: table;
+  height: 100vh;
+  width: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+.About .inner{
+  display:table-cell;
+  vertical-align: middle;
+  width: 70%;
+  float: left;
+  padding: 50px;
+  line-height: 50px;
+}
+.About .inner h1{
+  font-size: 48px;
+}
+.About .inner p{
+  font-size: 32px;
+  color: crimson;
+  font-weight: bold;
+}
+.education{
+  background-color: #fff;
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+.education .inner, .skills .inner{
+  padding: 50px;
+}
+.education h1, .skills h1, .contact h1{
+  font-size: 48px;
+}
+.education .inner div,.skills .inner div{
+  width: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+  text-align: center;
+}
+.skills{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqOYftMM0-BZNsLoO0chvWFSy7zTnkwX-N3w&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+.skills .inner ul li{
+  list-style-type: none;
+  color: #fff;
+  font-size: 28px; padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hobbies, .contact{
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+.hobbies .inner, .contact .inner{
+  padding: 50px;
+}
+.hobbies .inner div{
+  width: 30%;
+  margin: 5px;
+  float: left;
+  text-align: center;
+}
+.hobbies h1{
+ font-size: 48px;
+}
+.hobbies h3{
+  padding-bottom: 5px;
+}
+.contact .inner{
+ text-align: center;
+}
+.contact .inner p{
+  font-size:30px;
+}
+@media (min-width:320px) and (max-width:767px){
+  .education .inner div, .skills .inner div{
+    width:100%;
+  }
+  .hobbies .inner div, .About{
+    width: 100%;
+  }
+  .About{
+    text-align: justify;
+  }
+}
